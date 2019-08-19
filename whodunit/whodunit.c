@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
             // Reads RGB triple from infile
             fread(&triple, sizeof(RGBTRIPLE), 1, inptr);
            
-			// Manipulates the RGB pixels
+	    // Manipulates the RGB pixels
             if (triple.rgbtRed <= 0xff && triple.rgbtRed >= 0xfa 
                 && triple.rgbtBlue <= 0xff && triple.rgbtBlue >= 0x00
                 && triple.rgbtGreen <= 0xff && triple.rgbtGreen >= 0x00)
